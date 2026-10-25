@@ -1,0 +1,11 @@
+streamlit>=1.51.0
+streamlit-webrtc>=0.63.0
+av>=12.0.0
+numpy>=1.24.0,<2
+opencv-contrib-python==4.11.0.86
+mediapipe==0.10.21
+scipy>=1.10.0
+sounddevice>=0.4.6
+soundfile>=0.12.0
+# Optional MP3/AAC/M4A support also requires ffmpeg on PATH.
+# pydub>=0.25.0
