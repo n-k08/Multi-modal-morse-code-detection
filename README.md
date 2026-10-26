@@ -15,6 +15,10 @@ python -m streamlit run streamlit_app.py
 
 The app opens in your browser. Select an input mode from the sidebar.
 
+## Deploy to Streamlit Community Cloud
+
+Create an app from `n-k08/Multi-modal-morse-code-detection`, branch `main`, with `streamlit_app.py` as the entrypoint. The root `requirements.txt` installs Python dependencies and `packages.txt` installs the PortAudio runtime used by the audio decoder modules.
+
 ## Modes
 
 - **Audio:** decode live browser-microphone input or upload and play WAV, FLAC, OGG, AIFF, MP3, AAC, M4A, MP4, or WMA. Configure WPM, optional Farnsworth spacing, tone frequency tracking, filter Q, signal threshold, and volume limits. Live and file results show word/character/speed stats and support copying or downloading the transcript. Decoding runs locally without an external AI service.
